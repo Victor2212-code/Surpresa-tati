@@ -2,14 +2,17 @@ function enviar(){
     let ano = document.getElementById('ano')
     var res = document.querySelector('div#res')
     if(ano.value.length == 0){
-        window.confirm('Anos aceitos: 2014,2015, 2016, 2020, 2021')
+        window.confirm('Anos aceitos: 2015, 2016, 2020, 2021')
     }
     else{
         var img = document.createElement('img')
         img.setAttribute('id','foto')
         res.innerHTML = ''
         
-        if(ano.value == 2015){
+        if(ano.value == 0 ){
+            res.innerHTML += `[ERRO] Tente 2015, 2016,2020,2021`
+        }
+        else if(ano.value == 2015){
             img.setAttribute('src' , 'foto-2015.png')
             res.innerHTML += `Aqui você tinha trinta e dois anos; mal sabia que um tempo depois iria realizar meu desejo de morar com você. Sei que você senti muito a falta do nosso pai; saiba que ele tinha muito orgulho de você.\u{1F60A}`
         }
