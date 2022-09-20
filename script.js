@@ -23,13 +23,13 @@ function enviar(){
         }
         else if(ano.value == 2020) {
             img.setAttribute('src', 'foto-2020.png')
-            res.innerHTML += `Aqui é a época que eu estava no projeto do shape; infelizmente não deu muito certo; mais isso não é interessante hoje. obs: Continua digitando os nmeros que tem mais algumas supresas. Não  é muita coisa por quer ainda estou no basico peço até desculpa. \u{1F495}`
+            res.innerHTML += `Aqui é a época que eu estava no projeto do shape; infelizmente não deu muito certo; mais isso não é interessante hoje. obs: Continua digitando os números que tem mais algumas surpresas. Não  é muita coisa por quer ainda estou no basico peço até desculpa. \u{1F495}`
         }
 
         else if(ano.value == 2021){
             img.setAttribute('src','foto-2021.png')
             res.innerHTML += `Enfim para chegar até aqui você deve ter digitado todos os anos. Certo!
-            Bom desde o começo você deve ter percebido um botão ali em baixo, Bom clica nele; e você irá ver a maior supresa.`
+            Bom desde o começo você deve ter percebido um botão ali em baixo, Bom clica nele; tem mais uma hoenagem nele espero que goste.`
         }
         else{
             res.innerHTML +=``
